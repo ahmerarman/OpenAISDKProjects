@@ -5,6 +5,7 @@ import os
 import src.uvhelloworld.guardrail as gd
 import src.uvhelloworld.tools as tl
 
+# Load environment variables from .env file
 load_dotenv()
 
 MODEL=os.getenv("MODEL", "gpt-4o-mini")
